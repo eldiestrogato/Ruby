@@ -9,5 +9,7 @@ d2 = t2.map{|i| i[0]}
 #p d2
 
 eq = d1 & d2
-p t1
-p eq
+#p t1
+#p eq
+
+eq.each{|x| p t1.assoc(x).compact}
